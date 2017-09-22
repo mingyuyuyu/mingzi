@@ -1,0 +1,38 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+ol,ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+	display:block;
+	border:0 none;
+}
+#box{
+    min-width:1200px ;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clearfix:after{
+    overflow:hidden;
+    content:"";
+    height: 0;
+    display:block;
+    clear:both;
+    visibility:hidden;
+    zoom:1;
+}
